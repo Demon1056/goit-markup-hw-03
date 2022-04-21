@@ -19,25 +19,28 @@
 <body>
     <!--Верх сайта-->
     <header class="header">
-        <nav class="header-navigation container">
-            <a href="index.html" class="header-logo link">
-                <span class="logo-web"> Web</span>Studio</a>
-            <ul class="header-list list">
-                <li class="header-item"><a href="index.html" class="header-link link">Студия</a></li>
-                <li class="header-item"><a href="./portfolio.html" class="header-link link">Портфолио</a></li>
-                <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
-            </ul>
+        <div class="container header-line">
+            <nav class="header-nav">
+                <a href="index.html" class="header-logo link">
+                    <span class="logo-web"> Web</span>Studio</a>
+                <ul class="header-list list">
+                    <li class="header-item"><a href="index.html" class="header-link link">Студия</a></li>
+                    <li class="header-item"><a href="./portfolio.html" class="header-link link">Портфолио</a></li>
+                    <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
+                </ul>
+            </nav>
             <ul class="header-contacts list">
                 <li class="header-contacts-item"> <a href="mailto:info@devstudio.com"
                         class="contacts-link link">info@devstudio.com</a></li>
                 <li class="header-contacts-item"><a href="tel:+380961111111" class="contacts-link link">+38 096 111 11
                         11 </a></li>
             </ul>
-        </nav>
+        </div>
     </header>
     <main>
         <!--Секция с банером-->
-        <section class="section hero">
+
+        <section class="hero">
             <div class="container">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
                 <button type="button" class="hero-btn btn">Заказать услугу</button>
@@ -93,23 +96,31 @@
                 <ul class="team-list list">
                     <li class="team-item">
                         <img src="image/workers/ihor.jpg" alt="Игорь Демьяненко" width="270">
-                        <h3 class="team-title-name">Игорь Демьяненко</h3>
-                        <p lang="en" class="team-text">Product Designer</p>
+                        <div class="team-area">
+                            <h3 class="team-title-name">Игорь Демьяненко</h3>
+                            <p lang="en" class="team-text">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img src="image/workers/olya.jpg" alt="Ольга Репина" width="270">
-                        <h3 class="team-title-name">Ольга Репина</h3>
-                        <p lang="en" class="team-text">Frontend Developer</p>
+                        <div class="team-area">
+                            <h3 class="team-title-name">Ольга Репина</h3>
+                            <p lang="en" class="team-text">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img src="image/workers/kolya.jpg" alt="Николай Тарасов" width="270">
-                        <h3 class="team-title-name">Николай Тарасов</h3>
-                        <p lang="en" class="team-text">Marketing</p>
+                        <div class="team-area">
+                            <h3 class="team-title-name">Николай Тарасов</h3>
+                            <p lang="en" class="team-text">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-item">
                         <img src="image/workers/mysha.jpg" alt="Михаил Ермаков" width="270">
-                        <h3 class="team-title-name">Михаил Ермаков</h3>
-                        <p lang="en" class="team-text">UI Designer</p>
+                        <div class="team-area">
+                            <h3 class="team-title-name">Михаил Ермаков</h3>
+                            <p lang="en" class="team-text">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
